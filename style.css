@@ -1,0 +1,71 @@
+html,
+body {
+    font-family: "Source Code Pro", monospace;
+    min-width: 300px;
+    background: whitesmoke;
+    color: black;
+}
+
+#navbar {
+    background: whitesmoke;
+    position: fixed;
+    min-width: 300px;
+    width: 300px;
+    height: 760px;
+    top: 0;
+    left: 0;
+}
+
+header {
+    color: black;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#navbar ul {
+    background: #9195a5;
+    border-right: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 85%;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#navbar li {
+    color: black;
+    list-style: none;
+    width: 100%;
+    border-top: 1px solid black;
+    position: relative;
+}
+
+#navbar a {
+    color: black;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+code {
+    color: black;
+}
+
+#main-doc {
+    background: transparent;
+    padding-left: 10px;
+    margin-left: 310px;
+}
+
+#main-doc section {
+    font-size: 16px;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: aliceblue;
+    }
+}
